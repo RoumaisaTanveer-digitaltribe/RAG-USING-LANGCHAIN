@@ -327,11 +327,11 @@ Possible values:
 
 # Screenshots
 
-| Screenshot | Description |
-|------------|-------------|
-| `01_pytest_run.png` | Unit tests passing |
-| `02_api_demo.png` | API request/response demonstration |
-| `03_ingest_trace.png` | Document ingestion with preserved metadata |
+<img width="1202" height="469" alt="image" src="https://github.com/user-attachments/assets/1880c34c-0eb9-4085-828a-56648b880f67" />
+
+<img width="1148" height="363" alt="image" src="https://github.com/user-attachments/assets/9a4881bf-6adb-484a-8d47-5f37693e993d" />
+
+
 
 ---
 
