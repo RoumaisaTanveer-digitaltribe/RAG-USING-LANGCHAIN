@@ -1,0 +1,46 @@
+Northbridge Softworks — Remote Work Policy
+Effective Date: January 1, 2026
+Version: 2.1
+
+1. Purpose
+This policy defines the rules for employees who work remotely, either full-time
+or in a hybrid arrangement, at Northbridge Softworks.
+
+2. Eligibility
+Employees are eligible for remote work after completing 90 days of continuous
+employment and receiving written approval from their direct manager. Interns and
+contractors on assignments shorter than 3 months are not eligible for full-time
+remote arrangements but may work remotely up to 2 days per week with manager approval.
+
+3. Work Hours and Availability
+Remote employees must be reachable on company communication tools (Slack and email)
+between 10:00 AM and 4:00 PM in their local time zone, regardless of their broader
+working hours. Core meeting attendance is mandatory unless the employee has
+pre-approved leave.
+
+4. Equipment
+Northbridge Softworks provides a laptop, external monitor, and a one-time home
+office stipend of $400 USD for employees approved for full-time remote work.
+Employees are responsible for maintaining a stable internet connection of at
+least 25 Mbps download / 5 Mbps upload.
+
+5. Security Requirements
+All remote employees must enable full-disk encryption, use the company VPN when
+accessing internal systems, and complete the annual security awareness training.
+Company devices may not be used by anyone other than the employee, including
+family members.
+
+6. Expense Reimbursement
+Reasonable home-office expenses (chair, desk, monitor arm) up to $150 USD per
+year may be reimbursed with receipts submitted through the finance portal within
+30 days of purchase. Internet and electricity bills are not reimbursed.
+
+7. Performance Reviews
+Remote employees are evaluated using the same performance framework as in-office
+staff. Managers are expected to conduct at least one video check-in per week with
+each direct report working remotely.
+
+8. Policy Review
+This policy is reviewed annually by the People Operations team. The next scheduled
+review is January 2027. Questions about this policy should be directed to
+hr@northbridgesoftworks.example.

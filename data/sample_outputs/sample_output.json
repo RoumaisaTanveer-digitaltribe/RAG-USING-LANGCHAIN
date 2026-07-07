@@ -1,0 +1,12 @@
+{
+  "request": {
+    "question": "How many annual leaves are employees allowed?"
+  },
+  "response": {
+    "answer": "Employees are allowed 18 annual leaves per year, with up to 6 unused days carried forward to the next year.",
+    "sources": [
+      { "file": "hr_policy.pdf", "page": 2, "chunk_id": 1 }
+    ],
+    "confidence": "high"
+  }
+}

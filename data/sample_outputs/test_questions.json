@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "category": "easy",
+    "question": "How many annual leaves are employees allowed per year?",
+    "expected_source_file": "hr_policy.pdf",
+    "expected_contains": ["18"]
+  },
+  {
+    "id": 2,
+    "category": "easy",
+    "question": "How many paid sick leaves are employees entitled to?",
+    "expected_source_file": "hr_policy.pdf",
+    "expected_contains": ["10"]
+  },
+  {
+    "id": 3,
+    "category": "easy",
+    "question": "What is the home office equipment stipend for remote employees?",
+    "expected_source_file": "remote_work_policy.txt",
+    "expected_contains": ["400"]
+  },
+  {
+    "id": 4,
+    "category": "easy",
+    "question": "How long is the probation period for new hires?",
+    "expected_source_file": "hr_policy.pdf",
+    "expected_contains": ["3 months"]
+  },
+  {
+    "id": 5,
+    "category": "medium",
+    "question": "How many days of unused annual leave can be carried forward to next year?",
+    "expected_source_file": "hr_policy.pdf",
+    "expected_contains": ["6"]
+  },
+  {
+    "id": 6,
+    "category": "medium",
+    "question": "During what hours must remote employees be reachable on Slack and email?",
+    "expected_source_file": "remote_work_policy.txt",
+    "expected_contains": ["10:00", "4:00"]
+  },
+  {
+    "id": 7,
+    "category": "hard",
+    "question": "If a secondary caregiver takes parental leave, how does the entitlement compare to a primary caregiver's, and within what time frame must it be used?",
+    "expected_source_file": "hr_policy.pdf",
+    "expected_contains": ["14", "90", "6 months"]
+  },
+  {
+    "id": 8,
+    "category": "hard",
+    "question": "Can probation be extended, and if so under what conditions and for how long?",
+    "expected_source_file": "hr_policy.pdf",
+    "expected_contains": ["one", "month"]
+  },
+  {
+    "id": 9,
+    "category": "hard",
+    "question": "What security measures must remote employees follow before accessing internal systems, and who is allowed to use their company device?",
+    "expected_source_file": "remote_work_policy.txt",
+    "expected_contains": ["VPN", "encryption"]
+  },
+  {
+    "id": 10,
+    "category": "not_found",
+    "question": "What is the company's maternity leave policy in the United Kingdom office?",
+    "expected_confidence": "not_found"
+  },
+  {
+    "id": 11,
+    "category": "not_found",
+    "question": "Who is the current CEO of the company and what is their salary?",
+    "expected_confidence": "not_found"
+  },
+  {
+    "id": 12,
+    "category": "not_found",
+    "question": "What is the capital of France?",
+    "expected_confidence": "not_found"
+  }
+]

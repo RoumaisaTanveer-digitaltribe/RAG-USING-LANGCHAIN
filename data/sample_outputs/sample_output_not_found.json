@@ -1,0 +1,10 @@
+{
+  "request": {
+    "question": "What is the capital of France?"
+  },
+  "response": {
+    "answer": "I couldn't find an answer to this in the uploaded documents.",
+    "sources": [],
+    "confidence": "not_found"
+  }
+}

@@ -1,0 +1,391 @@
+[
+  {
+    "question": {
+      "id": 1,
+      "category": "easy",
+      "question": "How many annual leaves are employees allowed per year?",
+      "expected_source_file": "hr_policy.pdf",
+      "expected_contains": [
+        "18"
+      ]
+    },
+    "result": {
+      "answer": "Full-time confirmed employees are allowed 18 annual leaves per year.",
+      "sources": [
+        {
+          "file": "hr_policy.pdf",
+          "page": 2,
+          "chunk_id": 1
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 1,
+          "chunk_id": 0
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 3,
+          "chunk_id": 2
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 4,
+          "chunk_id": 3
+        }
+      ],
+      "confidence": "high"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 2,
+      "category": "easy",
+      "question": "How many paid sick leaves are employees entitled to?",
+      "expected_source_file": "hr_policy.pdf",
+      "expected_contains": [
+        "10"
+      ]
+    },
+    "result": {
+      "answer": "Employees are entitled to 10 paid sick leaves per year.",
+      "sources": [
+        {
+          "file": "hr_policy.pdf",
+          "page": 2,
+          "chunk_id": 1
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 3,
+          "chunk_id": 2
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 1,
+          "chunk_id": 0
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 4,
+          "chunk_id": 3
+        }
+      ],
+      "confidence": "high"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 3,
+      "category": "easy",
+      "question": "What is the home office equipment stipend for remote employees?",
+      "expected_source_file": "remote_work_policy.txt",
+      "expected_contains": [
+        "400"
+      ]
+    },
+    "result": {
+      "answer": "Northbridge Softworks provides a one-time home office stipend of $400 USD for employees approved for full-time remote work.",
+      "sources": [
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 1
+        },
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 2
+        },
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 0
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 3,
+          "chunk_id": 2
+        }
+      ],
+      "confidence": "high"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 4,
+      "category": "easy",
+      "question": "How long is the probation period for new hires?",
+      "expected_source_file": "hr_policy.pdf",
+      "expected_contains": [
+        "3 months"
+      ]
+    },
+    "result": {
+      "answer": "The probation period for new hires is 3 months from their date of joining.",
+      "sources": [
+        {
+          "file": "hr_policy.pdf",
+          "page": 3,
+          "chunk_id": 2
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 4,
+          "chunk_id": 3
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 1,
+          "chunk_id": 0
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 2,
+          "chunk_id": 1
+        }
+      ],
+      "confidence": "high"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 5,
+      "category": "medium",
+      "question": "How many days of unused annual leave can be carried forward to next year?",
+      "expected_source_file": "hr_policy.pdf",
+      "expected_contains": [
+        "6"
+      ]
+    },
+    "result": {
+      "answer": "Unused annual leave may be carried forward up to a maximum of 6 days into the following calendar year.",
+      "sources": [
+        {
+          "file": "hr_policy.pdf",
+          "page": 2,
+          "chunk_id": 1
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 1,
+          "chunk_id": 0
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 3,
+          "chunk_id": 2
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 4,
+          "chunk_id": 3
+        }
+      ],
+      "confidence": "high"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 6,
+      "category": "medium",
+      "question": "During what hours must remote employees be reachable on Slack and email?",
+      "expected_source_file": "remote_work_policy.txt",
+      "expected_contains": [
+        "10:00",
+        "4:00"
+      ]
+    },
+    "result": {
+      "answer": "Remote employees must be reachable on company communication tools (Slack and email) between 10:00 AM and 4:00 PM in their local time zone.",
+      "sources": [
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 0
+        },
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 2
+        },
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 1
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 3,
+          "chunk_id": 2
+        }
+      ],
+      "confidence": "high"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 7,
+      "category": "hard",
+      "question": "If a secondary caregiver takes parental leave, how does the entitlement compare to a primary caregiver's, and within what time frame must it be used?",
+      "expected_source_file": "hr_policy.pdf",
+      "expected_contains": [
+        "14",
+        "90",
+        "6 months"
+      ]
+    },
+    "result": {
+      "answer": "Secondary caregivers are entitled to 14 calendar days of paid parental leave, which must be taken within 6 months of the child's birth or adoption. This compares to primary caregivers who are entitled to 90 calendar days of paid parental leave.",
+      "sources": [
+        {
+          "file": "hr_policy.pdf",
+          "page": 3,
+          "chunk_id": 2
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 2,
+          "chunk_id": 1
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 1,
+          "chunk_id": 0
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 4,
+          "chunk_id": 3
+        }
+      ],
+      "confidence": "high"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 8,
+      "category": "hard",
+      "question": "Can probation be extended, and if so under what conditions and for how long?",
+      "expected_source_file": "hr_policy.pdf",
+      "expected_contains": [
+        "one",
+        "month"
+      ]
+    },
+    "result": {
+      "answer": "Probation may be extended once, by a maximum of one additional month, if performance requires further evaluation.",
+      "sources": [
+        {
+          "file": "hr_policy.pdf",
+          "page": 4,
+          "chunk_id": 3
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 3,
+          "chunk_id": 2
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 2,
+          "chunk_id": 1
+        },
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 0
+        }
+      ],
+      "confidence": "medium"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 9,
+      "category": "hard",
+      "question": "What security measures must remote employees follow before accessing internal systems, and who is allowed to use their company device?",
+      "expected_source_file": "remote_work_policy.txt",
+      "expected_contains": [
+        "VPN",
+        "encryption"
+      ]
+    },
+    "result": {
+      "answer": "Remote employees must enable full-disk encryption, use the company VPN when accessing internal systems, and complete annual security awareness training. Company devices may only be used by the employee and not by anyone else, including family members.",
+      "sources": [
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 1
+        },
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 0
+        },
+        {
+          "file": "remote_work_policy.txt",
+          "page": null,
+          "chunk_id": 2
+        },
+        {
+          "file": "hr_policy.pdf",
+          "page": 4,
+          "chunk_id": 3
+        }
+      ],
+      "confidence": "high"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 10,
+      "category": "not_found",
+      "question": "What is the company's maternity leave policy in the United Kingdom office?",
+      "expected_confidence": "not_found"
+    },
+    "result": {
+      "answer": "I couldn't find an answer to this in the uploaded documents.",
+      "sources": [],
+      "confidence": "not_found"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 11,
+      "category": "not_found",
+      "question": "Who is the current CEO of the company and what is their salary?",
+      "expected_confidence": "not_found"
+    },
+    "result": {
+      "answer": "I couldn't find an answer to this in the uploaded documents.",
+      "sources": [],
+      "confidence": "not_found"
+    },
+    "passed": true
+  },
+  {
+    "question": {
+      "id": 12,
+      "category": "not_found",
+      "question": "What is the capital of France?",
+      "expected_confidence": "not_found"
+    },
+    "result": {
+      "answer": "I couldn't find an answer to this in the uploaded documents.",
+      "sources": [],
+      "confidence": "not_found"
+    },
+    "passed": true
+  }
+]
