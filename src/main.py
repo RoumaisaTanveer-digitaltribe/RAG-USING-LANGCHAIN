@@ -10,6 +10,8 @@ from src.services.vectorstore import vectorstore_exists
 from src.services.rag_chain import answer_question
 from src.ingest import run_ingestion
 from src.services.document_loader import SUPPORTED_EXTENSIONS
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 app = FastAPI(
     title="RAG Chatbot API",
