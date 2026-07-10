@@ -42,7 +42,7 @@ class RagResult:
         return {
             "answer": self.answer,
             "sources": [
-                {"file": s.file, "page": s.page, "chunk_id": s.chunk_id}
+                {"file": s.file, "page": s.page, "chunk_id": s.chunk_id, "content": s.snippet}
                 for s in self.sources
             ],
             "confidence": self.confidence,
@@ -134,7 +134,7 @@ def answer_question(question: str) -> RagResult:
             file=doc.metadata.get("source", "unknown"),
             page=doc.metadata.get("page"),
             chunk_id=doc.metadata.get("chunk_id"),
-            snippet=doc.page_content[:180],
+            snippet=doc.page_content[:300],
         )
         for doc, _score in docs_with_scores
     ]

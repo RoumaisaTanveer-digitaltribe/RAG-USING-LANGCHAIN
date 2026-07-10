@@ -28,6 +28,7 @@ class SourceItem(BaseModel):
     file: str
     page: int | None = None
     chunk_id: int | None = None
+    content: str | None = None
 
 
 class AskResponse(BaseModel):
